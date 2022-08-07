@@ -3,7 +3,7 @@ import re
 import pandas as pd
 from string import punctuation
 from spellchecker import SpellChecker
-from lib.stopwords import *
+from stopwords import *
 
 # showing full data without truncanations
 pd.set_option('display.max_colwidth', None)
